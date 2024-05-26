@@ -14,7 +14,7 @@ import io.cucumber.junit.Cucumber;
     dryRun=false,
     monochrome=false,
     tags= "@Smoke",
-    plugin= {"pretty","html:target/cucumber.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+    plugin= {"pretty","json:target/CucumberTestReport.json","html:target/cucumber.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
     )
 
 public class TestRun{
